@@ -1,0 +1,71 @@
+body {
+    background-image: url();
+    background: #000;
+    color: #F1C86A;
+    font-family: "Libre Baskerville", sans-serif;
+/*font-weight: regular; */
+}
+
+h1, h2, h3 {
+    font-family: "DynaPuff", sans-serif;
+    color: #F1C86A;
+    text-shadow: #F1856A;
+    font-style:italic;
+    /*font-size:30px; */
+}
+
+
+p {
+   
+    color: #D6F16A;
+    
+
+}
+
+ul {
+    
+    color: #F1856A;
+    
+}
+li {
+    
+    color: #F1856A;
+    
+
+}
+ol {
+    
+    color: #F1856A;
+    
+}
+hr {
+    background: #000;
+    color: #F1C86A;
+    font-family: "Libre Baskerville", sans-serif;
+/*font-weight: regular; */
+}
+span {
+    background: #000;
+    color: #F1C86A;
+    font-family: "Libre Baskerville", sans-serif;
+/*font-weight: regular; */
+}
+figure {
+    background: #000;
+    color: #F1C86A;
+    font-family: "Libre Baskerville", sans-serif;
+/*font-weight: regular; */
+}
+input {
+    
+    color: #F1C86A;
+   
+}
+legend, fieldset {
+    color: #D6F16A;
+
+   
+}
+.rate {
+   color: #D6F16A; 
+}
