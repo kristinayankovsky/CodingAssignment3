@@ -69,3 +69,14 @@ legend, fieldset {
 .rate {
    color: #D6F16A; 
 }
+        .wrapper {
+
+  display: flex;
+
+}
+
+.wrapper div {
+
+  flex: 1;
+
+}
