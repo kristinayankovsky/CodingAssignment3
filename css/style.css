@@ -69,14 +69,24 @@ legend, fieldset {
 .rate {
    color: #D6F16A; 
 }
-        .wrapper {
-
-  display: flex;
-
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-bottom: 2em;
 }
 
 .wrapper div {
-
-  flex: 1;
-
+  background: #fff;
+  border: 2px solid #f4c4b7;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
 }
+
+.wrapper div:hover {
+  transform: translateY(-4px);
+}
+
+
